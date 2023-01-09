@@ -3,7 +3,7 @@
     margin: 0px;
 }
 header{
-    background: linear-gradient(to top,  rgba(18, 18, 18, 1), rgba(18, 18, 18, 0)),url(/images/donation.jpg);
+    background: linear-gradient(to top,  rgba(18, 18, 18, 1), rgba(18, 18, 18, 0)),url(./images/donation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 983px;
