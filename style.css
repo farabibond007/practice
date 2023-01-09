@@ -3,14 +3,14 @@
     margin: 0px;
 }
 header{
-    background-image: url(images/donation.jpg);
+    background: linear-gradient(to top,  rgba(18, 18, 18, 1), rgba(18, 18, 18, 0)),url(/images/donation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1000px;
+    width: 983px;
     height: 400px;  
     text-align: center;
     padding: 100px 220px;
-
+    margin-bottom: 100px;
 }
 .header-title{
     color: white;
@@ -30,5 +30,96 @@ header{
     border-style: none;
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 125px;
+}
+.donation-money{
+    text-align: center;
+}
+.common-title{
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+    text-align:center;
+}
+.donation-money-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.donation-money-list{
+    display: flex; 
+    list-style: none; 
+    gap: 22px; 
+    justify-content: center;
+}
+.list{
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}    
+.list:hover{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    padding: 40px 23px;  
+}
+.common-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.donation-list-plan{
+    display: flex;
+    list-style: none;
+    margin-right: 24px;
+    gap: 24px;
+    justify-content: center;
+}
+.donation-list-1{
+    border: 1px solid orangered;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(79, 157, 166,0.1);
+    width: 360px;
+    height: 352px;
+}
+.donation-list-2{
+    border: 1px solid orangered;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.donation-list-3{
+    border: 1px solid orangered;
+    border-radius: 5px;
+    border-style: none;
+    background: rgba(255,165,0,0.1);
+}
+.donation-list-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+}
+.donation-list-descri{
+    padding-bottom: 55px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    margin-left: 22px;
+}
+.icon{
+    padding-top: 64px;
+    padding-right: 279px;
+    margin-bottom: 32px;
+    margin-left: 22px;
 }
 
