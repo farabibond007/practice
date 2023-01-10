@@ -46,18 +46,24 @@ header{
     font-weight: 400;
     font-size: 18px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 13px;
 }
 .donation-money-list{
     display: flex; 
     list-style: none; 
     gap: 22px; 
     justify-content: center;
+    margin-bottom: 20px;
 }
 .list{
     font-weight: 700;
     font-size: 30px;
     color: #707070;
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 40px 23px;
+    /* border-style: none; */
 }    
 .list:hover{
     background: #FFEEEE;
@@ -65,8 +71,7 @@ header{
     border-radius: 5px;
     font-weight: 700;
     font-size: 30px;
-    color: #707070;
-    padding: 40px 23px;  
+    color:#FF5959 ;  
 }
 .common-description{
     font-weight: 400;
@@ -121,5 +126,9 @@ header{
     padding-right: 279px;
     margin-bottom: 32px;
     margin-left: 22px;
+}
+hr{
+    width: 300px;
+    margin-bottom: 45px;
 }
 
